@@ -1,0 +1,103 @@
+.container {
+  border: 1px solid #095bac;
+  min-height: 800px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 50px;
+  background-color: #095bac;
+  color: #fff;
+  font-size: 24px;
+  margin: 0px;
+}
+
+.title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title img {
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+}
+
+.title h1 {
+  text-transform: uppercase;
+  text-shadow: 0 0 4px rgba(35, 34, 34, 0.6);
+}
+
+.navlink a {
+  color: #fff;
+  text-transform: uppercase;
+  padding: 5px 15px;
+}
+
+.navlink a:hover {
+  background-color: #fff;
+  color: #095bac;
+}
+
+.navlink a.active {
+  background-color: #d7d7d7;
+  color: #095bac;
+}
+
+.content {
+  display: flex;
+  align-items: start;
+  padding: 50px 50px;
+  background-color: #97bee5;
+  color: #fff;
+  font-size: 24px;
+  margin: 0;
+}
+
+.column-2 {
+  width: 50%;
+}
+
+.form {
+  font-size: 26px;
+  font-weight: 500;
+}
+
+.form select {
+  font-size: 18px;
+  padding: 0 10px;
+}
+
+.form button,
+.right_button {
+  font-size: 18px;
+  padding: 0 10px;
+  border-radius: 5px;
+  background-color: #095bac;
+  color: #fff;
+  cursor: pointer;
+}
+
+.column-3 {
+  width: 33.33%;
+}
+
+.content h3 {
+  background-color: #000;
+  padding: 4px;
+}
+
+.heading {
+  padding: 4px;
+  display: flex;
+  align-items: start;
+  padding: 25px 25px;
+  background-color: #095bac;
+  color: #000;
+  font-size: 24px;
+  font-weight: 800;
+  margin: 10px 0 0 0;
+}
