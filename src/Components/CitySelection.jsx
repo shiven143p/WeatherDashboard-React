@@ -66,10 +66,12 @@ const CitySelection = ({ setLocationDetails, locationDetails } = props) => {
       <div className="heading">Make City Selection</div>
       <div className="content">
         <div className="column-2">
-          <form className="form">
-            <label htmlFor="city">Please select a city</label>
+          <form id="frmCity" className="form">
+            <label id="lblCity" htmlFor="ddlCity">
+              Please select a city
+            </label>
             <select
-              id="city"
+              id="ddlCity"
               value={address}
               onChange={(e) => setAddress(e.target.value)}
             >
@@ -77,7 +79,7 @@ const CitySelection = ({ setLocationDetails, locationDetails } = props) => {
               <option value="Delhi">Delhi</option>
               <option value="Gurgaon">Gurgaon</option>
             </select>
-            <button type="button" onClick={handleSubmit}>
+            <button id="btnGetWeather" type="button" onClick={handleSubmit}>
               Get Weather
             </button>
           </form>
