@@ -145,6 +145,7 @@ const WeatherDashboard = ({ locationDetails } = props) => {
               </p>
               {lat !== 0 && (
                 <button
+                  id="btnBackCitySelection"
                   type="button"
                   className="right_button"
                   onClick={handleSubmit}
